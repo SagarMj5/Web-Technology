@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border</title>
+    <style>
+      h1 {
+        width: fit-content;
+        border-width: 25px;
+        /* border-color: teal; */
+        border-style: groove;
+      }
+      h2 {
+        width: fit-content;
+        border: 10px solid red;
+      }
+      .h1 {
+        width: fit-content;
+        border-left-style: double;
+        border-right-style: double;
+        border-bottom-style: double;
+        border-top-style: double;
+        border-radius: 15px;
+      }
+      .h2 {
+        border-color: black;
+        border-right-style: dashed;
+        border-left-style: dotted;
+        border-top-style: dashed;
+        border-width: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <h2>Black</h2>
+    <h1 class="h1">Blue</h1>
+    <h1 class="h2">Brown</h1>
+  </body>
+</html>

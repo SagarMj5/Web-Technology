@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+#h2tag {
+  color: purple;
+}
+.h1class {
+  color: aquamarine;
+}
+#p1,
+#p3,
+#p5 {
+  color: rgb(141, 49, 181);
+}
+.p2,
+p {
+  color: brown;
+}

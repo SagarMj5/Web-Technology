@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .insider {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        animation-name: movement;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-delay: 10ms;
+        position: relative;
+        border-radius: 50%;
+      }
+      @keyframes movement {
+        0% {
+          background-color: aqua;
+          top: 0;
+          left: 0;
+        }
+        25% {
+          background-color: rgb(159, 239, 147);
+          top: 0px;
+          left: 500px;
+        }
+        50% {
+          background-color: yellow;
+          top: 500px;
+          left: 500px;
+        }
+        75% {
+          background-color: brown;
+          top: 500px;
+          left: 0px;
+        }
+        100% {
+          background-color: brown;
+          top: 0px;
+          left: 0px;
+          background-color: aqua;
+        }
+      }
+      .outsider {
+        width: 600px;
+        height: 600px;
+        border: 2px solid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outsider">
+      <div class="insider"></div>
+    </div>
+  </body>
+</html>

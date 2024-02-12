@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-top: 200px;
+      }
+      .grid {
+        background-color: yellow;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid;
+      }
+      .g1 {
+        animation-name: grid1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid1 {
+        0% {
+          background-color: red;
+          transform: rotate(180deg);
+        }
+        25% {
+          background-color: rgb(82, 48, 82);
+        }
+        50% {
+          background-color: coral;
+        }
+        100% {
+          background-color: bisque;
+        }
+      }
+
+      .g2 {
+        animation-name: grid2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transition: transform;
+        transition-duration: 2s;
+        animation-timing-function: linear;
+      }
+      @keyframes grid2 {
+        0% {
+          background-color: rgb(139, 205, 104);
+          transform: rotate(180deg);
+        }
+        25% {
+          background-color: rgb(61, 93, 198);
+        }
+        50% {
+          background-color: rgb(47, 52, 55);
+        }
+        100% {
+          background-color: rgb(211, 103, 103);
+        }
+      }
+
+      .g3 {
+        animation-name: grid3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid3 {
+        0% {
+          background-color: rgb(123, 123, 48);
+          transform: rotate(180deg);
+        }
+        25% {
+          background-color: rgb(84, 65, 84);
+        }
+        50% {
+          background-color: rgb(56, 169, 129);
+        }
+        100% {
+          background-color: rgb(206, 154, 236);
+        }
+      }
+
+      .g4 {
+        animation-name: grid4;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid4 {
+        0% {
+          background-color: rgb(123, 123, 48);
+          transform: rotate(-180deg);
+        }
+        25% {
+          background-color: rgb(84, 65, 84);
+        }
+        50% {
+          background-color: rgb(56, 169, 129);
+        }
+        100% {
+          background-color: rgb(206, 154, 236);
+        }
+      }
+
+      .g5 {
+        animation-name: grid5;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid5 {
+        0% {
+          background-color: red;
+          transform: rotate(-180deg);
+        }
+        25% {
+          background-color: purple;
+        }
+        50% {
+          background-color: rgb(138, 108, 97);
+        }
+        100% {
+          background-color: rgb(92, 41, 81);
+        }
+      }
+
+      .g6 {
+        animation-name: grid6;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid6 {
+        0% {
+          background-color: rgb(212, 222, 171);
+          transform: rotate(-180deg);
+        }
+        25% {
+          background-color: rgb(196, 79, 55);
+        }
+        50% {
+          background-color: rgb(154, 155, 206);
+        }
+        100% {
+          background-color: rgb(9, 123, 193);
+        }
+      }
+
+      .g7 {
+        animation-name: grid7;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid7 {
+        0% {
+          background-color: rgb(139, 205, 104);
+          transform: rotate(360deg);
+        }
+        25% {
+          background-color: rgb(61, 93, 198);
+        }
+        50% {
+          background-color: rgb(47, 52, 55);
+        }
+        100% {
+          background-color: rgb(119, 80, 80);
+        }
+      }
+
+      .g8 {
+        animation-name: grid8;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid8 {
+        0% {
+          background-color: rgb(61, 122, 160);
+          transform: rotate(360deg);
+        }
+        25% {
+          background-color: rgb(255, 0, 0);
+        }
+        50% {
+          background-color: rgb(172, 255, 7);
+        }
+        100% {
+          background-color: rgb(194, 252, 168);
+        }
+      }
+      .g9 {
+        animation-name: grid9;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes grid9 {
+        0% {
+          background-color: red;
+          transform: rotate(360deg);
+        }
+        25% {
+          background-color: purple;
+        }
+        50% {
+          background-color: coral;
+        }
+        100% {
+          background-color: bisque;
+        }
+      }
+    </style>
+  </head>
+  <body class="container">
+    <div class="grid g1">1</div>
+    <div class="grid g2">2</div>
+    <div class="grid g3">3</div>
+    <div class="grid g4">4</div>
+    <div class="grid g5">5</div>
+    <div class="grid g6">6</div>
+    <div class="grid g7">7</div>
+    <div class="grid g8">8</div>
+    <div class="grid g9">9</div>
+  </body>
+</html>

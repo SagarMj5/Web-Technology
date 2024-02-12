@@ -1,0 +1,50 @@
+.main {
+  height: 85px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+}
+.myul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  /* font-weight: ; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  position: relative;
+  color: white;
+  /* font-size: 21px; */
+  padding: 7px;
+  border-radius: 2px;
+  border: 2px solid white;
+  background-color: #2a55e5;
+}
+img {
+  position: relative;
+
+  /* margin-top: 5px;
+  margin-left: 2px;
+  border-radius: 8px; */
+}
+
+.search {
+  position: relative;
+  width: 900px;
+  height: 50px;
+  left: 50px;
+  background-color: #f0f5ff;
+  display: flex;
+  align-items: center;
+  border-style: none;
+  border-radius: 8px;
+  outline: none;
+}

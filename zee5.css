@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.main {
+  background-color: black;
+  height: 110px;
+  display: flex;
+  color: white;
+  align-items: center;
+  /* overflow: hidden; */
+}
+ul {
+  position: relative;
+  justify-content: space-evenly;
+  display: flex;
+  width: 600px;
+}
+img {
+  position: relative;
+  left: 5px;
+  top: 3px;
+  height: 77px;
+}
+.fullsearch {
+  /* background-color: black; */
+  border: 1px solid #6e6d70;
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+  left: 200px;
+}
+input {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  align-items: center;
+}
+.icon {
+  height: 5px;
+  width: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: white;
+  color: black;
+  transition-timing-function: ease-in;
+}
+.buyplan {
+  background-color: #5c1695;
+}
+.fa-solid fa-magnifying-glass {
+  position: relative;
+  height: 2px;
+  width: 2px;
+}

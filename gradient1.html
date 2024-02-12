@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 200px;
+        background-image: repeating-linear-gradient(45deg, red 10%, blue 20%);
+      }
+      .div1 {
+        height: 100px;
+        width: 200px;
+        background-image: radial-gradient(circle, yellow 10%, blue);
+      }
+      .div2 {
+        height: 100px;
+        width: 200px;
+        background-image: repeating-radial-gradient(
+          black 10%,
+          blue 10%,
+          silver 20%
+        );
+      }
+      #di {
+        height: 100px;
+        width: 200px;
+        background-image: conic-gradient(red, green);
+      }
+      .div3 {
+        height: 100px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: conic-gradient(
+          red 0deg,
+          red 90deg,
+          green 90deg,
+          green 180deg,
+          rgb(85, 8, 85) 180deg,
+          rgb(85, 8, 85) 270deg,
+          yellow 270deg,
+          yellow 360deg
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <br />
+    <div class="div1"></div>
+    <br />
+    <div class="div2"></div>
+    <br />
+    <div id="di"></div>
+    <br />
+    <div class="div3">Hey this is laptop and i want to use it</div>
+  </body>
+</html>

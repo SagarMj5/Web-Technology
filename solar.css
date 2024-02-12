@@ -1,0 +1,197 @@
+body {
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: 1200px;
+  /* background-size: 1920px 1080px; */
+  overflow: hidden;
+  /* align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex; */
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.sun {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px yellow, 0px 0px 30px yellow, 0px 0px 0px yellow,
+    0px 0px 50px yellow;
+}
+span {
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.planet1 {
+  height: 200px;
+  width: 200px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.planet2 {
+  height: 400px;
+  width: 400px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet3 {
+  height: 600px;
+  width: 600px;
+  /* border: 0.5px solid white; */
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.planet4 {
+  width: 800px;
+  height: 800px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet5 {
+  height: 1000px;
+  width: 1000px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet6 {
+  height: 1200px;
+  width: 1200px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet7 {
+  height: 1450px;
+  width: 1450px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet8 {
+  height: 1700px;
+  width: 1700px;
+  /* border: 0.2px solid white; */
+  animation-name: rotation;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* --------------Planets---------------- */
+.mer {
+  position: absolute;
+  top: 10px;
+  background-color: rgb(220, 52, 52);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-items: center;
+  background-image: url("./mercury.jpg");
+  background-size: 50px;
+}
+.venus {
+  position: absolute;
+  bottom: 65px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-image: url("./venus.png");
+  background-size: 60px;
+}
+span::before,
+span::after {
+  content: " ";
+  border-radius: 50%;
+  position: absolute;
+}
+.planet3::before {
+  height: 80px;
+  width: 80px;
+  right: 120px;
+  background-image: url("./earth.jpg");
+  background-size: 80px;
+  box-shadow: 0px 0px 30px rgb(90, 90, 237);
+}
+.planet4::before {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(212, 166, 102);
+  background-image: url("./mar.png");
+  right: 180px;
+
+  background-size: 105px;
+  background-position: center;
+}
+.planet5::before {
+  height: 110px;
+  width: 110px;
+  top: 225px;
+  background-image: url("./jupyter.png");
+  background-size: contain;
+  animation-name: rotation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.planet6::before {
+  height: 110px;
+  width: 110px;
+  top: 300px;
+  background-image: url("./saturn.png");
+  background-size: 110px;
+}
+.planet7::after {
+  height: 110px;
+  width: 110px;
+  left: 400px;
+  /* background-color: rgb(53, 0, 102); */
+  background-image: url("./uranus.png");
+  background-size: 110px;
+}
+.planet8::before {
+  height: 110px;
+  width: 110px;
+  top: 500px;
+  /* background-color: rgb(99, 165, 101); */
+  background-image: url("./neptune.png");
+  background-size: 110px;
+}

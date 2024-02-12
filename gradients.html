@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 500px;
+        width: 100%;
+        background-image: linear-gradient(
+          45deg,
+          violet,
+          indigo,
+          blue,
+          green,
+          yellow,
+          orange,
+          red
+        );
+      }
+
+      .div1 {
+        height: 150px;
+        width: 100%;
+        background-image: repeating-linear-gradient(
+          to right,
+          orange,
+          white,
+          green
+        );
+      }
+      .div2 {
+        height: 800px;
+        width: 800px;
+        background-image: radial-gradient(
+          violet,
+          indigo,
+          blue,
+          green,
+          yellow,
+          orange,
+          red
+        );
+      }
+
+      .div3 {
+        height: 400px;
+        width: 400px;
+        background-image: repeating-linear-gradient(45deg, 10%yellow, 10%red);
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <br /><br />
+    <div class="div1"></div>
+    <br /><br />
+    <div class="div2"></div>
+    <br /><br />
+    <div class="div3"></div>
+  </body>
+</html>
