@@ -157,7 +157,6 @@ span::after {
   background-color: rgb(212, 166, 102);
   background-image: url("./mar.png");
   right: 180px;
-
   background-size: 105px;
   background-position: center;
 }
